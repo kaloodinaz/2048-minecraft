@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#151515" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>2048 マインクラフト | Minecraft 2048</title>
+  <meta name="description" content="2048 マインクラフトは、人気の2048パズルとマインクラフトの世界が融合した無料ブラウザゲームです。ピクセルアートのブロックをスライドさせて、新しい素材や道具を作り出そう！">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <script>
+    if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
+    .then(registration => {console.log('Service Worker registered successfully:', registration);})
+    .catch(error => {console.log('Error in Service Worker registration:', error);});});}
+    </script>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Minecraft 2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Join the numbered blocks and get to the <strong>Diamond 2048 block!</strong></p>
+      <a class="restart-button">ニューゲーム</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">続ける</a>
+          <a class="retry-button">再試行</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">プレーの仕方:</strong> 矢印キーでタイルを動かす。同じ数字の2つのタイルが触れると、1つに合体します！
+    </p>
+    <hr>
+
+    <div class="block block-728"><script type="text/javascript">
+     atOptions = {
+       'key' : 'd1d26e15f7c349fd8e403bb5ea491a31',
+       'format' : 'iframe',
+       'height' : 90,
+       'width' : 728,
+       'params' : {}
+     };
+   </script>
+   <script type="text/javascript" src="//www.highperformanceformat.com/d1d26e15f7c349fd8e403bb5ea491a31/invoke.js"></script></div>
+       <div class="block block-300"><script type="text/javascript">
+     atOptions = {
+       'key' : '0fee57062f9bb330edc13a4e4349876d',
+       'format' : 'iframe',
+       'height' : 250,
+       'width' : 300,
+       'params' : {}
+     };
+   </script>
+   <script type="text/javascript" src="//www.highperformanceformat.com/0fee57062f9bb330edc13a4e4349876d/invoke.js"></script></div>
+   <hr>
+   <h2>2048 マインクラフト：ブロックを組み合わせて最強のアイテムを作ろう！</h2>
+  <p>
+    <strong>2048 マインクラフト</strong>は、クラシックな数字パズルゲーム「2048」と大人気のサンドボックスゲーム「マインクラフト」が融合した、<em>中毒性のある無料ブラウザゲーム</em>です。プレイヤーは、上下左右にスライド操作を行いながら、同じ種類のマインクラフトブロックを組み合わせ、より高レベルの素材やアイテムを作り出していきます。
+  </p>
+
+  <h2>ゲームの遊び方</h2>
+  <p>
+    操作はとても簡単。矢印キーまたはスワイプでブロックを動かし、同じアイコン同士がぶつかると合体して新しいアイテムになります。例えば、<code>木</code>ブロックを2つ組み合わせると<code>作業台</code>になり、さらに強力なアイテムへと進化させることが可能です。
+  </p>
+
+  <h2>マインクラフトの世界観を再現</h2>
+  <p>
+    ゲーム内のアイコンや背景は、すべてマインクラフトのドット絵スタイルで描かれており、ファンにはたまらないビジュアル体験となっています。ゾンビやクリーパーなどの敵キャラも登場し、ゲームを盛り上げてくれます。
+  </p>
+
+  <h2>こんな人におすすめ</h2>
+  <ul>
+    <li>2048系パズルが好きな人</li>
+    <li>マインクラフトのファン</li>
+    <li>手軽に遊べる無料ゲームを探している人</li>
+    <li>スキマ時間に脳トレしたい人</li>
+  </ul>
+
+  <h2>2048 マインクラフトを今すぐプレイ！</h2>
+  <p>
+    ダウンロード不要で、PCやスマホからすぐに遊べます。戦略的な思考と少しの運が求められるこのゲームで、あなたはどこまで高いスコアを出せるでしょうか？ ぜひ挑戦してみてください！
+  </p>
+   <hr>
+   <p><strong>2048 Minecraft</strong> is an extended version of the classic <a href="https://kaloodinaz.github.io/game/2048/" target="_blank">2048 game</a>, featuring a 4x4 grid instead of the standard 4x4 board. This variation allows for a more strategic approach to merging tiles, making it a great option for players who enjoy longer gameplay sessions.</p>
+<hr>
+<p>
+  この「2048 マインクラフト」ポケモン <a target="_blank" href="https://kaloodinaz.github.io/">Kaloo Dinaz</a>によって制作された高速版であり、
+  「非公式の」<a target="_blank" href="https://kaloodinaz.github.io/2048-online/">2048ゲーム</a>を元に
+  <a target="_blank" href="https://github.com/kaloodinaz/">Kaloo Dinaz</a>がクローンとして作成しました。
+</p>
+  </div>
+
+  <script defer src="main.js"></script>
+ 
+</body>
+</html>
